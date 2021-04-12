@@ -1,0 +1,59 @@
+/* Apply to all <*> */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* Apply styles to <body> */
+body {
+    font-family: Helvetica, Ariel, Sans-serif;
+    background-color: tomato;
+}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Ariel, sans-serif;
+}
+
+/* Apply Styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* Apply Styles to <Header> <h1> */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* Apply Stles to <Header> <a> */
+header a {
+    color: #fce138;
+}
+
+header a {
+    text-decoration: none;
+    color: #fec138;
+}
+
+/* Apply Styles to <header> <nav> */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* Apply Styles to <header> <nav> <ul> <li> */
+header nav ul li {
+    display: inline;
+}
+
+/* Apply Styles to <header> <nav> <ul> <li> <a> */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}

@@ -1,18 +1,14 @@
-/* Apply to all <*> */
+/* Apply Stykes to all <*> */
 * {
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 }
 
 /* Apply styles to <body> */
 body {
-    font-family: Helvetica, Ariel, Sans-serif;
-    background-color: tomato;
-}
-
-body {
+    font-family: Helvetica, Arial, Sans-serif;
     color: #39a6b2;
-    font-family: Helvetica, Ariel, sans-serif;
 }
 
 /* Apply Styles to <header> */
@@ -31,10 +27,6 @@ header h1 {
 }
 
 /* Apply Stles to <Header> <a> */
-header a {
-    color: #fce138;
-}
-
 header a {
     text-decoration: none;
     color: #fec138;
@@ -56,4 +48,31 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+/* Apply Styles to <footer> */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+/* Apply Styles to <footer> <h2> */
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* Apply Styles to <footer> <div> */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* Apply Styles to <footer> <a> */
+footer a {
+    color: #024e76;
 }

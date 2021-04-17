@@ -7,7 +7,7 @@
 
 #page-title {
  color: #fce138;
- display: inline;
+ display: inline-block;
  border-radius: 4px solid #fce138;
  padding: 0 80px 15px 80px;
  font-weight: normal;
